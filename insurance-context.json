@@ -9,7 +9,7 @@
     "type": "@type",
     "schema": "https://schema.org/",
     "InsuranceCredential": {
-      "@id": "https://raw.githubusercontent.com/challabeehyv/mimoto-config/main/insurance-context.json#InsuranceCredential"
+      "@id": "https://challabeehyv.github.io/mimoto-config/insurance-context.json#InsuranceCredential"
     },
     "dob": "schema:birthDate",
     "gender": "schema:gender",
