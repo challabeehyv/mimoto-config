@@ -29,7 +29,7 @@
 "gender": "${gender}",
 "benefits": #if($benefits)$benefits#else#set($benefits = '"[]"') $benefits#end,
 "fullName": "${fullName}",
-"policyExpiresOn": "${expiresOn}",
+"expiresOn": "${expiresOn}",
 "policyName": "${policyName}",
 "policyNumber": "${policyNumber}"
 }
