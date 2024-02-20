@@ -6,7 +6,11 @@
       "@id": "@id",
       "@protected": false
     },
-    "type": "@type",
+    "type": [
+            "VerifiableCredential",
+            "HealthInsuranceCredential",
+            "LifeInsuranceCredential"
+        ],
     "schema": "https://schema.org/",
     "InsuranceCredential": {
       "@id": "https://raw.githubusercontent.com/challabeehyv/mimoto-config/main/insurance-context.json#InsuranceCredential"
