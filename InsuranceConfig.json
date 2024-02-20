@@ -7,7 +7,7 @@
 {
 "@context": [
 "https://www.w3.org/2018/credentials/v1",
-"https://raw.githubusercontent.com/challabeehyv/mimoto-config/main/insurance-context.json",
+"https://challabeehyv.github.io/mimoto-config/insurance-context.json",
   {
     "HealthInsuranceCredential":{
     "@id":"InsuranceCredential"
