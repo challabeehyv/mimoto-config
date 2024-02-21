@@ -12,12 +12,12 @@
       "LifeInsuranceCredential": {
       "@id":"InsuranceCredential"
     }
-]
+],
 "type": [
 "VerifiableCredential",
 "LifeInsuranceCredential",
 "InsuranceCredential"
-]
+],
 "issuer": "${issuerId}",
 "expirationDate": "${date.format($ISO8601DateTimeWithMillisUTC, $calenderNow, $defaultLocale)}",
 "credentialSubject": {
