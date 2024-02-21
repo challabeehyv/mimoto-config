@@ -8,20 +8,16 @@
 "@context": [
 "https://www.w3.org/2018/credentials/v1",
 "https://challabeehyv.github.io/mimoto-config/insurance-context.json",
-  {
-    "HealthInsuranceCredential":{
-    "@id":"InsuranceCredential"
-    },
-    "LifeInsuranceCredential":{
-      "@id":"HealthInsuranceCredential"
+    {
+      "LifeInsuranceCredential": {
+      "@id":"InsuranceCredential"
     }
-  }
 ],
 "type": [
 "VerifiableCredential",
-"HealthInsuranceCredential",
-"LifeInsuranceCredential"
-],
+"LifeInsuranceCredential",
+"InsuranceCredential"
+]
 "issuer": "${issuerId}",
 "expirationDate": "${date.format($ISO8601DateTimeWithMillisUTC, $calenderNow, $defaultLocale)}",
 "credentialSubject": {
