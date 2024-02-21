@@ -15,7 +15,7 @@
     "gender": "schema:gender",
     "benefits": "schema:benefits",
     "fullName": "schema:name",
-    "expiresOn": "schema:expires",
+    "policyExpiresOn": "schema:expires",
     "policyName": "schema:Text",
     "policyNumber": "schema:Text"
   }
