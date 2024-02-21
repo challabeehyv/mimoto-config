@@ -24,9 +24,12 @@
 "credentialSubject": {
 "dob": "${dob}",
 "gender": "${gender}",
+"mobile": "${mobile}",
 "benefits": #if($benefits)$benefits#else#set($benefits = '"[]"') $benefits#end,
 "fullName": "${fullName}",
-"policyExpiresOn": "${expiresOn}",
+"email": "${email}",
+"policyIssuedOn": "${policyIssuedOn}",
+"policyExpiresOn": "${policyExpiresOn}",
 "policyName": "${policyName}",
 "policyNumber": "${policyNumber}"
 }
