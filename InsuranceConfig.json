@@ -12,7 +12,7 @@
       "LifeInsuranceCredential": {
       "@id":"InsuranceCredential"
     }
-],
+]
 "type": [
 "VerifiableCredential",
 "LifeInsuranceCredential",
