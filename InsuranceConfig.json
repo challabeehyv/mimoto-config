@@ -29,7 +29,7 @@
 "fullName": "${fullName}",
 "email": "${email}",
 "policyIssuedOn": "${policyIssuedOn}",
-"policyExpiresOn": "${expiresOn}",
+"policyExpiresOn": "${policyExpiresOn}",
 "policyName": "${policyName}",
 "policyNumber": "${policyNumber}"
 }
