@@ -5,7 +5,7 @@
 ## Adding no. of Days we want to set as expiry,here '5' represent Day and '30' represent no. of days
 #set( $expiry =$calenderNow.add(5,30))
 #set($dateDesiredFormat="yyyy-mm-dd")
-#set($formattedPolicyIssuedOn=$dateTool.parse($ISO8601DateTimeWithMillisUTC, ${policyIssuedOn})
+#set($formattedPolicyIssuedOn=$dateTool.parse($ISO8601DateTimeWithMillisUTC, ${policyIssuedOn}))
 {
 "@context": [
 "https://www.w3.org/2018/credentials/v1",
