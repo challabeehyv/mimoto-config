@@ -37,7 +37,7 @@
 "fullName": "${fullName}",
 "email": "${email}",
 "policyIssuedOn": "${dateTool.format($dateDesiredFormat, $dateTool.parse($ISO8601DateTimeWithMillisUTC, ${policyIssuedOn}))}",
-"policyExpiresOn": $formattedPolicyExpiresOnDate,
+"policyExpiresOn": "${dateTool.format($dateDesiredFormat, $dateTool.parse($ISO8601DateTimeWithMillisUTC, ${policyExpiresOn}))}",
 "policyName": "${policyName}",
 "policyNumber": "${policyNumber}"
 }
