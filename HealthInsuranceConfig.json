@@ -34,7 +34,7 @@
 "benefits": #if($benefits)$benefits#else#set($benefits = '"[]"') $benefits#end,
 "fullName": "${fullName}",
 "email": "${email}",
-"policyIssuedOn": #if($policyIssuedOn)$policyIssuedOn#else$policyIssuedOn#end",
+"policyIssuedOn": #if($policyIssuedOn)$policyIssuedOn#else$policyIssuedOn#end,
 "policyExpiresOn": "${date.format($dateDesiredFormat, $date.parse($ISO8601DateTimeWithMillisUTC, ${policyExpiresOn}))}",
 "policyName": "${policyName}",
 "policyNumber": "${policyNumber}"
