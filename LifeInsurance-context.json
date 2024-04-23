@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "id": {
+      "@id": "@id",
+      "@protected": false
+    },
+    "type": "@type",
+    "schema": "https://schema.org/",
+    "InsuranceCredential": {
+      "@id": "https://challabeehyv.github.io/mimoto-config/insurance-context.json#InsuranceCredential"
+    },
+    "dob": "schema:birthDate",
+    "gender": "schema:gender",
+    "benefits": "schema:benefits",
+    "fullName": "schema:name",
+    "expiresOn": "schema:expires",
+    "policyName": "schema:Text",
+    "policyNumber": "schema:Text"
+  }
+}
