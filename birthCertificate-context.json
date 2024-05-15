@@ -1,54 +1,54 @@
 {
   "@context": {
-    "@version": 1.1,
-    "@protected": true,
     "id": "@id",
+    "@version": 1.1,
     "schema": "https://schema.org/",
+    "@protected": true,
     "ProofOfAcademicEvaluationCredential": {
       "@id": "https://challabeehyv.github.io/mimoto-config/birthCertificate-context.json#ProofOfAcademicEvaluationCredential",
       "@context": {
+        "id": "@id",
         "@protected": true,
         "@version": 1.1
-      },
-      "Country": "schema:Text",
-      "ChildDetails": {
-        "@id": "schema:ChildDetails",
-        "type": "@id",
-        "@context": {
-          "id": "@id",
-          "fullName": "schema:Text",
-          "dateOfBirth": "schema:Text",
-          "sex": "schema:Text",
-          "placeOfBirth": "schema:Text",
-          "nationality": "schema:Text"
-        }
-      },
-      "MotherDetails": {
-        "@id": "schema:MotherDetails",
-        "@context": {
-          "id": "@id",        
-          "fullName": "schema:Text",
-          "dateOfBirth": "schema:Text",
-          "nationality": "schema:Text"
-        }
-      },
-      "FatherDetails": {
-        "@id": "schema:FatherDetails",
-        "@context": {
-          "id": "@id",
-          "fullName": "schema:Text",
-          "dateOfBirth": "schema:Text",
-          "nationality": "schema:Text"
-        }
-      },
-      "RegistrationDetails": {
-        "@id": "schema:RegistrationDetails",
-        "@context": {
-          "id": "@id",
-          "registrationNumber": "schema:Text",
-          "dateOfRegistration": "schema:Text",
-          "dateOfIssuance": "schema:Text"
-        }
+      }
+    },
+    "ChildDetails": {
+      "@id": "schema:ChildDetails",
+      "type": "@id",
+      "@context": {
+        "id": "@id",
+        "fullName": "schema:name",
+        "dateOfBirth": "schema:birthDate",
+        "sex": "schema:gender",
+        "placeOfBirth": "schema:birthPlace",
+        "nationality": "schema:nationality"
+      }
+    },
+    "MotherDetails": {
+      "@id": "schema:MotherDetails",
+      "@context": {
+        "id": "@id",
+        "fullName": "schema:name",
+        "dateOfBirth": "schema:birthDate",
+        "nationality": "schema:nationality"
+      }
+    },
+    "FatherDetails": {
+      "@id": "schema:FatherDetails",
+      "@context": {
+        "id": "@id",
+        "fullName": "schema:name",
+        "dateOfBirth": "schema:birthDate",
+        "nationality": "schema:nationality"
+      }
+    },
+    "RegistrationDetails": {
+      "@id": "schema:RegistrationDetails",
+      "@context": {
+        "id": "@id",
+        "registrationNumber": "schema:identifier",
+        "dateOfRegistration": "schema:startDate",
+        "dateOfIssuance": "schema:startDate"
       }
     }
   }
