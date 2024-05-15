@@ -12,45 +12,45 @@
         "@protected": true,
         "Country": "schema:Text",
         "ChildDetails": {
-          "@id": "schema:ChildDetails",
+          "@id": "@id",
           "@context": {
             "@version": 1.1,
             "@protected": true,
             "fullName": "schema:Text",
-            "dob": "schema:Date",
+            "dob": "schema:Text",
             "sex": "schema:Text",
             "placeOfBirth": "schema:Text",
             "nationality": "schema:Text"
           }
         },
         "motherDetails": {
-          "@id": "schema:motherDetails",
+          "@id": "@id",
           "@context": {
             "@version": 1.1,
             "@protected": true,
             "fullName": "schema:Text",
-            "dob": "schema:Date",
+            "dob": "schema:Text",
             "nationality": "schema:Text"
           }
         },
         "fatherDetails": {
-          "@id": "schema:fatherDetails",
+          "@id": "@id",
           "@context": {
             "@version": 1.1,
             "@protected": true,
             "fullName": "schema:Text",
-            "dob": "schema:Date",
+            "dob": "schema:Text",
             "nationality": "schema:Text"
           }
         },
         "registrationDetails": {
-          "@id": "schema:registrationDetails",
+          "@id": "@id",
           "@context": {
             "@version": 1.1,
             "@protected": true,
             "registrationNumber": "schema:Text",
-            "dateOfRegistration": "schema:Date",
-            "dateOfIssuance": "schema:Date"
+            "dateOfRegistration": "schema:Text",
+            "dateOfIssuance": "schema:Text"
           }
         }
       }
