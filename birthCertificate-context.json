@@ -13,8 +13,9 @@
         "@protected": true,
         "Country": "schema:Text",
         "ChildDetails": {
-          "@id": "@id",
+          "@id": "schema:ChildDetails",
           "@context": {
+            "@id": "@id",
             "@version": 1.1,
             "@protected": true,
             "fullName": "schema:Text",
@@ -25,8 +26,9 @@
           }
         },
         "motherDetails": {
-          "@id": "@id",
+           "@id": "schema:motherDetails",
           "@context": {
+            "@id": "@id",
             "@version": 1.1,
             "@protected": true,
             "fullName": "schema:Text",
@@ -35,8 +37,9 @@
           }
         },
         "fatherDetails": {
-          "@id": "@id",
+          "@id": "schema:fatherDetails",
           "@context": {
+            "@id": "@id",
             "@version": 1.1,
             "@protected": true,
             "fullName": "schema:Text",
@@ -45,8 +48,9 @@
           }
         },
         "registrationDetails": {
-          "@id": "@id",
+         "@id": "schema:registrationDetails",
           "@context": {
+            "@id": "@id",
             "@version": 1.1,
             "@protected": true,
             "registrationNumber": "schema:Text",
