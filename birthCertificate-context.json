@@ -5,7 +5,7 @@
     "schema": "https://schema.org/",
     "@protected": true,
     "ProofOfAcademicEvaluationCredential": {
-      "@id": "https://challabeehyv.github.io/mimoto-config/birthCertificate-context.json#ProofOfAcademicEvaluationCredential",
+      "@id": "@id",
       "@context": {
         "id": "@id",
         "@protected": true,
