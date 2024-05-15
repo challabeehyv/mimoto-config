@@ -9,44 +9,44 @@
       "@id": "https://challabeehyv.github.io/mimoto-config/birthCertificate-context.json#ProofOfAcademicEvaluationCredential",
       "@context": {
         "@protected": true,
-        "Country": "schema:Text",
-        "ChildDetails": {
-          "@id": "schema:ChildDetails",
-          "@context": {
-            "@protected": true,
-            "fullName": "schema:Text",
-            "dateOfBirth": "schema:Text",
-            "sex": "schema:Text",
-            "placeOfBirth": "schema:Text",
-            "nationality": "schema:Text"
-          }
-        },
-        "motherDetails": {
-          "@id": "schema:MotherDetails",
-          "@context": {
-            "@protected": true,
-            "fullName": "schema:Text",
-            "dateOfBirth": "schema:Text",
-            "nationality": "schema:Text"
-          }
-        },
-        "fatherDetails": {
-          "@id": "schema:FatherDetails",
-          "@context": {
-            "@protected": true,
-            "fullName": "schema:Text",
-            "dateOfBirth": "schema:Text",
-            "nationality": "schema:Text"
-          }
-        },
-        "registrationDetails": {
-          "@id": "schema:RegistrationDetails",
-          "@context": {
-            "@protected": true,
-            "registrationNumber": "schema:Text",
-            "dateOfRegistration": "schema:Text",
-            "dateOfIssuance": "schema:Text"
-          }
+        "Country": "schema:Text"
+      },
+      "ChildDetails": {
+        "@id": "schema:ChildDetails",
+        "@context": {
+          "@protected": true,
+          "fullName": "schema:Text",
+          "dateOfBirth": "schema:Text",
+          "sex": "schema:Text",
+          "placeOfBirth": "schema:Text",
+          "nationality": "schema:Text"
+        }
+      },
+      "motherDetails": {
+        "@id": "schema:MotherDetails",
+        "@context": {
+          "@protected": true,
+          "fullName": "schema:Text",
+          "dateOfBirth": "schema:Text",
+          "nationality": "schema:Text"
+        }
+      },
+      "fatherDetails": {
+        "@id": "schema:FatherDetails",
+        "@context": {
+          "@protected": true,
+          "fullName": "schema:Text",
+          "dateOfBirth": "schema:Text",
+          "nationality": "schema:Text"
+        }
+      },
+      "registrationDetails": {
+        "@id": "schema:RegistrationDetails",
+        "@context": {
+          "@protected": true,
+          "registrationNumber": "schema:Text",
+          "dateOfRegistration": "schema:Text",
+          "dateOfIssuance": "schema:Text"
         }
       }
     }
