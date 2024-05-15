@@ -1,0 +1,59 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "id": "@id",
+    "type": "@type",
+    "schema": "https://schema.org/",
+    "ProofOfAcademicEvaluationCredential": {
+      "@id": "schema:ProofOfAcademicEvaluationCredential",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "Country": "schema:Text",
+        "ChildDetails": {
+          "@id": "schema:ChildDetails",
+          "@context": {
+            "@version": 1.1,
+            "@protected": true,
+            "fullName": "schema:Text",
+            "dob": "schema:Date",
+            "sex": "schema:Text",
+            "placeOfBirth": "schema:Text",
+            "nationality": "schema:Text"
+          }
+        },
+        "motherDetails": {
+          "@id": "schema:MotherDetails",
+          "@context": {
+            "@version": 1.1,
+            "@protected": true,
+            "fullName": "schema:Text",
+            "dob": "schema:Date",
+            "nationality": "schema:Text"
+          }
+        },
+        "fatherDetails": {
+          "@id": "schema:FatherDetails",
+          "@context": {
+            "@version": 1.1,
+            "@protected": true,
+            "fullName": "schema:Text",
+            "dob": "schema:Date",
+            "nationality": "schema:Text"
+          }
+        },
+        "registrationDetails": {
+          "@id": "schema:RegistrationDetails",
+          "@context": {
+            "@version": 1.1,
+            "@protected": true,
+            "registrationNumber": "schema:Text",
+            "dateOfRegistration": "schema:Date",
+            "dateOfIssuance": "schema:Date"
+          }
+        }
+      }
+    }
+  }
+}
