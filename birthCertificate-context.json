@@ -6,7 +6,7 @@
     "type": "@type",
     "schema": "https://schema.org/",
     "ProofOfAcademicEvaluationCredential": {
-      "@id": "https://raw.githubusercontent.com/challabeehyv/mimoto-config/main/birthCertificate-context.json#ProofOfAcademicEvaluationCredential",
+      "@id": "https://challabeehyv.github.io/mimoto-config/birthCertificate-context.json#ProofOfAcademicEvaluationCredential",
       "@context": {
         "@version": 1.1,
         "@protected": true,
