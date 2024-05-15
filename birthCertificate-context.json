@@ -22,7 +22,7 @@
           }
         },
         "motherDetails": {
-          "@id": "schema:motherDetails",
+          "@id": "schema:MotherDetails",
           "@context": {
             "@protected": true,
             "fullName": "schema:Text",
@@ -31,7 +31,7 @@
           }
         },
         "fatherDetails": {
-          "@id": "schema:fatherDetails",
+          "@id": "schema:FatherDetails",
           "@context": {
             "@protected": true,
             "fullName": "schema:Text",
@@ -40,7 +40,7 @@
           }
         },
         "registrationDetails": {
-          "@id": "schema:registrationDetails",
+          "@id": "schema:RegistrationDetails",
           "@context": {
             "@protected": true,
             "registrationNumber": "schema:Text",
