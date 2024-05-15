@@ -24,7 +24,7 @@
           }
         },
         "motherDetails": {
-          "@id": "schema:MotherDetails",
+          "@id": "schema:motherDetails",
           "@context": {
             "@version": 1.1,
             "@protected": true,
@@ -34,7 +34,7 @@
           }
         },
         "fatherDetails": {
-          "@id": "schema:FatherDetails",
+          "@id": "schema:fatherDetails",
           "@context": {
             "@version": 1.1,
             "@protected": true,
@@ -44,7 +44,7 @@
           }
         },
         "registrationDetails": {
-          "@id": "schema:RegistrationDetails",
+          "@id": "schema:registrationDetails",
           "@context": {
             "@version": 1.1,
             "@protected": true,
