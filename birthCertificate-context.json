@@ -14,7 +14,7 @@
     },
     "ChildDetails": {
       "@id": "schema:ChildDetails",
-      "type": "@id",
+      "@type": "@id",
       "@context": {
         "id": "@id",
         "fullName": "schema:name",
