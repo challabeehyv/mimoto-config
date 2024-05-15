@@ -3,18 +3,19 @@
     "@version": 1.1,
     "@protected": true,
     "id": "@id",
-    "type": "@type",
     "schema": "https://schema.org/",
     "ProofOfAcademicEvaluationCredential": {
-      "@id": "https://challabeehyv.github.io/mimoto-config/birthCertificate-context.json#ProofOfAcademicEvaluationCredential",
+      "@id": "@id",
       "@context": {
-        "@protected": true,
-        "Country": "schema:Text"
+        "@protected": true
+        "@version": 1.1
       },
+      "Country": "schema:Text"
       "ChildDetails": {
         "@id": "schema:ChildDetails",
+        "type":"@id",
         "@context": {
-          "@protected": true,
+          "id":"@id",
           "fullName": "schema:Text",
           "dateOfBirth": "schema:Text",
           "sex": "schema:Text",
@@ -22,28 +23,28 @@
           "nationality": "schema:Text"
         }
       },
-      "motherDetails": {
+      "MotherDetails": {
         "@id": "schema:MotherDetails",
         "@context": {
-          "@protected": true,
+          "id":"@id",        
           "fullName": "schema:Text",
           "dateOfBirth": "schema:Text",
           "nationality": "schema:Text"
         }
       },
-      "fatherDetails": {
+      "FatherDetails": {
         "@id": "schema:FatherDetails",
         "@context": {
-          "@protected": true,
+          "id":"@id",
           "fullName": "schema:Text",
           "dateOfBirth": "schema:Text",
           "nationality": "schema:Text"
         }
       },
-      "registrationDetails": {
+      "RegistrationDetails": {
         "@id": "schema:RegistrationDetails",
         "@context": {
-          "@protected": true,
+          "id":"@id",
           "registrationNumber": "schema:Text",
           "dateOfRegistration": "schema:Text",
           "dateOfIssuance": "schema:Text"
